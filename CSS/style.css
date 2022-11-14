@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    background-color: rgb(199, 235, 235);
+    background-image: url();
+}
+header{
+    background: #f08000;
+    padding: 5px 0px;
+    font-family: cursive;
+}
+h1 { 
+    text-transform: uppercase;
+    border: orange 5px solid;
+    padding: 1px 1px;
+    margin:  1em;
+    
+  }
+section{
+    text-align: justify;
+    margin: 50px 50px;
+    line-height: 150%;
+    background-color: yellowgreen;
+}
+.impar{
+    padding: 5px 0px;
+    margin: 15px;
+    border: green solid;
+}
+.par{
+    border: rgb(90, 128, 0) solid;
+}
+#art1{
+    
+}
+#art2{
+    
+}
+#art3{
+    
+}
+#art4{
+    
+}
+#art5{
+    
+}
+#art6{
+    
+}
+#art7{
+    
+}
+#art8{
+    
+}
+article{
+
+}
+
+
