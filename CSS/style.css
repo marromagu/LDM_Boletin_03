@@ -1,60 +1,39 @@
 body{
     text-align: center;
-    background-color: rgb(199, 235, 235);
-    background-image: url();
+    background-color: aquamarine;
 }
-header{
-    background: #f08000;
-    padding: 5px 0px;
-    font-family: cursive;
+h1{
+    background-color: aqua;
 }
-h1 { 
-    text-transform: uppercase;
-    border: orange 5px solid;
-    padding: 1px 1px;
-    margin:  1em;
-    
-  }
-section{
+.i{
+    color:chocolate;
+    font-style:italic
+}
+.molinero{
+    font-size:xx-large;
+    color: burlywood;
+}
+.gato{
+    font-size: x-large;
+    color: orange;
+}
+#rey{
+    font-size: large;
+    color: yellow;
+}
+.pimpar{
     text-align: justify;
-    margin: 50px 50px;
-    line-height: 150%;
-    background-color: yellowgreen;
-}
-.impar{
-    padding: 5px 0px;
-    margin: 15px;
-    border: green solid;
+    margin-top: 15px;
+    margin-right:300px;
+    margin-bottom:5px;
+    margin-left:300px;
+    background-color: coral;
 }
 .par{
-    border: rgb(90, 128, 0) solid;
+    text-align: justify;
+    margin-top: 5px;
+    margin-right:200px;
+    margin-bottom:5px;
+    margin-left:200px;
+    background-color:khaki;
 }
-#art1{
-    border: rgb(90, 128, 0) solid;
-}
-#art2{
-    border: rgb(90, 128, 0) solid;
-}
-#art3{
-    border: rgb(90, 128, 0) solid;
-}
-#art4{
-    border: rgb(90, 128, 0) solid;
-}
-#art5{
-    border: rgb(90, 128, 0) solid;
-}
-#art6{
-    border: rgb(90, 128, 0) solid;
-}
-#art7{
-    border: rgb(90, 128, 0) solid;
-}
-#art8{
-    border: rgb(90, 128, 0) solid;
-}
-article{
-    border: rgb(90, 128, 0) solid;
-}
-
-
