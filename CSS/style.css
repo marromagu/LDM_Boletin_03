@@ -1,39 +1,74 @@
-body{
+* {
+    /*Selector universal */
     text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+body {
+    /*Selector de tipo o etiqueta*/
+    background-color: lightgreen;
+    background-image: url("../Imagenes/fondo3.webp");
+}
+
+h1 {
+    /*Selector de tipo o etiqueta*/
+    color: orangered;
+    background-color: rgb(238, 205, 144);
+    border: 3px solid orange;
+    margin: auto;
+    width: 30%;
+    height: 1em;
+    padding: 10px 50px 20px;
+    font-family: 'PT Sans', Verdana, sans-serif;
+    background-image: url("../Imagenes/fondo2.jpeg");
+}
+
+p span {
+    /*Selector descendente*/
+    margin: auto;
+    font-style: italic;
+}
+
+.pimpar {
+    /*Selector de clase*/
+    margin: auto;
+    text-indent: 40px;
+    text-transform: capitalize;
+    background-color: bisque;
+    border: 5px solid coral;
+    margin: 1%;
+    padding: 1%;
+
+}
+
+.par {
+    /*Selector de clase*/
+    text-indent: 40px;
+    text-transform: uppercase;
     background-color: aquamarine;
+    border: 5px solid aqua;
+    margin: 1%;
+    padding: 1%;
 }
-h1{
-    background-color: aqua;
-}
-.i{
-    color:chocolate;
-    font-style:italic
-}
-.molinero{
-    font-size:xx-large;
-    color: burlywood;
-}
-.gato{
-    font-size: x-large;
+
+.gato {
+    /*Selector de clase*/
     color: orange;
+
 }
-#rey{
-    font-size: large;
-    color: yellow;
+
+.molinero {
+    /*Selector de clase*/
+    color: chocolate;
 }
-.pimpar{
-    text-align: justify;
-    margin-top: 15px;
-    margin-right:300px;
-    margin-bottom:5px;
-    margin-left:300px;
-    background-color: coral;
+
+.i {
+    /*Selector de clase*/
+    color: cornflowerblue;
 }
-.par{
-    text-align: justify;
-    margin-top: 5px;
-    margin-right:200px;
-    margin-bottom:5px;
-    margin-left:200px;
-    background-color:khaki;
+
+#rey {
+    /*Selector de ID*/
+    color: yellowgreen;
 }
